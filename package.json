@@ -5,6 +5,15 @@
   "repository": "ssh://git@github.com/boilerweb/next-mantine.git",
   "author": "Junya Kono <junya03dance@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest",
+    "lint": "gts lint",
+    "clean": "gts clean",
+    "fix": "gts fix"
+  },
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/server": "^11.10.0",
@@ -33,6 +42,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@types/jest": "^29.2.4",
     "@types/node": "^14.11.2",
     "@types/react": "^18.0.26",
     "@types/react-dom": "^18.0.10",
@@ -50,13 +60,5 @@
     "npm-run-all": "^4.1.5",
     "prettier": "^2.8.1",
     "typescript": "~4.7.0"
-  },
-  "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start",
-    "lint": "gts lint",
-    "clean": "gts clean",
-    "fix": "gts fix"
   }
 }
