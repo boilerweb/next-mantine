@@ -1,1 +1,5 @@
-build/
+.next/
+jest-setup.js
+jest.config.js
+next-env.d.ts
+next.config.js
